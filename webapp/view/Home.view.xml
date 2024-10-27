@@ -9,7 +9,15 @@
     >
         <content>
             <Button
-                text="{i18n>iWantToNavigate}"
+                id="displayNotFoundBtn"
+                text="{i18n>DisplayNotFound}"
+                press=".onDisplayNotFound"
+                class="sapUiTinyMarginEnd"
+            />
+            <Button
+                id="employeeListBtn"
+                text="{i18n>ShowEmployeeList}"
+                press=".onNavToEmployees"
                 class="sapUiTinyMarginEnd"
             />
         </content>
